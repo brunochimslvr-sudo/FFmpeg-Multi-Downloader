@@ -1,0 +1,19 @@
+# Binários grandes (gerados ou instalados)
+*.exe
+bin/*.exe
+bin/*.dll
+
+# Ambientes virtuais e compilação
+build/
+dist/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.spec
+
+# Pastas de saída do usuário
+Downloads/
+fila.json
+.vscode/
+.idea/
